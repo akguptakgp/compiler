@@ -1,0 +1,32 @@
+/*************************       Compilers Laboratory Assignment 6             ****************************/
+/************************      Written by:Ankit Kumar Gupta (12CS10006)        ***************************/
+/************************          Target Code Generation                **************************/   
+
+I have included 7 test files to test Tiny C program
+
+instructions to use Tiny C compiler 
+1. use make to generate executable file for Tiny C compiler that converts a c programm into assembly programm
+2. use make clean to clean up all generated files
+3. for testing a file 
+  
+after doing make do the following
+ 
+
+         (./a.out file_name ) here file_name is name of the file to be tested
+for ex. to test ass6_12CS10006_test1.c
+./a.out  ass6_12CS10006_test1.c   do this
+
+after doing this various files gets generated 
+
+a.  ex. ass6_12CS10006_tokens_1.c contains tokens
+b.  ex. ass6_12CS10006_quads_1.c contains symbol table and quads
+c.  ex. ass6_12CS10006_test  contains target assembly code
+
+
+now to test target assembly code
+
+use make Test in terminal 
+after doing that do
+./test.out
+
+
